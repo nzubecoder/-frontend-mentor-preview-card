@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=superunion:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'superunion',sans-serif
+}
+.container{
+    margin: 0 auto;
+}
+.sender{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    max-width: 900px;
+}
+.sender-test{
+    background-color: hsl(31, 77%, 52%);
+}
+.sender-test img {
+    margin: 20px;
+}
+.plain-test{
+    margin: 20px;
+}
+.group{
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 15px;
+}
+.amen{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 14px;
+    margin-bottom: 50px;
+}
+.submit{
+    text-decoration: none;
+    color: hsl(31, 77%, 52%);
+    background-color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+}
+.alendo{
+    background-color: hsl(184, 100%, 22%);
+}
+.alendo img {
+    margin: 20px;
+}
+.stuff{
+    text-decoration: none;
+    color: hsl(31, 77%, 52%);
+    background-color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+}
+.esent{
+    background-color: hsl(179, 100%, 13%);
+}
+.esent img {
+    margin: 20px;
+}
+.sub{
+    text-decoration: none;
+    color: hsl(31, 77%, 52%);
+    background-color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+}
+/*mmedia query*/
+@media (max-width: 425px) {
+}
